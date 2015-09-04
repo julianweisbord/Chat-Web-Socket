@@ -4,8 +4,9 @@ var io = require('socket.io')(http);
 var dt = new Date();
 day_array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // add a 0 before numbers less than 2
-  minutes = dt.getMinutes();
-
+if (dt.getMinutes().toString().length <2){
+  minutes = '0' + dt.getMinutes();
+}
 
 else {
   minutes = dt.getMinutes();
