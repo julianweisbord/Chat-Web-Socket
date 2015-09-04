@@ -1,0 +1,24 @@
+{
+  "name": "Chat-Web-Socket",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.10.8",
+    "socket.io": "~1.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianweisbord/Chat-Web-Socket.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/julianweisbord/Chat-Web-Socket/issues"
+  }
+}
